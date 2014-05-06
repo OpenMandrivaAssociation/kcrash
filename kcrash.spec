@@ -5,7 +5,7 @@
 
 Name: kcrash
 Version: 4.98.0
-Release: 1
+Release: 2
 Source0: http://ftp5.gwdg.de/pub/linux/kde/unstable/frameworks/%{version}/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 crash handling library
 URL: http://kde.org/
@@ -35,6 +35,10 @@ The KDE Frameworks 5 crash handling library.
 Summary: Development files for %{name}
 Group: Development/C
 Requires: %{libname} = %{EVRD}
+Requires: extra-cmake-modules5
+Requires: cmake(KF5CoreAddons)
+Requires: cmake(KF5WindowSystem)
+Requires: cmake(Qt5Core)
 
 %description -n %{devname}
 Development files (Headers etc.) for %{name}.
