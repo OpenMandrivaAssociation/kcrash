@@ -33,7 +33,7 @@ The KDE Frameworks 5 crash handling library.
 Summary: Development files for %{name}
 Group: Development/C
 Requires: %{libname} = %{EVRD}
-Requires: extra-cmake-modules5
+Requires: cmake(ECM)
 Requires: cmake(KF5CoreAddons)
 Requires: cmake(KF5WindowSystem)
 Requires: cmake(Qt5Core)
