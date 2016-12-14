@@ -17,6 +17,7 @@ BuildRequires: cmake(KF5CoreAddons)
 BuildRequires: cmake(KF5WindowSystem)
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Widgets)
+BuildRequires: pkgconfig(Qt5Test)
 
 %description
 The KDE Frameworks 5 crash handling library.
