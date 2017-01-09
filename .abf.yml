@@ -1,4 +1,2 @@
-removed_sources:
-  kcrash-5.13.0.tar.xz: c7395075b23323d1a4caa88e2b7517084893a77f
 sources:
-  kcrash-5.29.0.tar.xz: 056a6e90286ad74c2d16acc580d02df034e4452c
+  kcrash-5.30.0.tar.xz: 5ef140a3c295c83a0bce22b598303c255ddb4494
