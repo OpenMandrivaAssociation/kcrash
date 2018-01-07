@@ -5,7 +5,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
 Name: kcrash
-Version:	5.41.0
+Version:	5.42.0
 Release:	1
 Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 crash handling library
@@ -54,6 +54,7 @@ Development files (Headers etc.) for %{name}.
 %files -n %{libname}
 %{_libdir}/*.so.%{major}
 %{_libdir}/*.so.%{version}
+%{_sysconfdir}/xdg/kcrash.categories
 
 %files -n %{devname}
 %{_includedir}/*
