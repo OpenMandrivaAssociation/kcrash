@@ -15,6 +15,7 @@ Group: System/Libraries
 BuildRequires: cmake(ECM)
 BuildRequires: cmake(KF5CoreAddons)
 BuildRequires: cmake(KF5WindowSystem)
+BuildRequires: cmake(Qt5X11Extras)
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: pkgconfig(Qt5Test)
