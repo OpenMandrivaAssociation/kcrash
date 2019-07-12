@@ -5,7 +5,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
 Name: kcrash
-Version:	5.59.0
+Version:	5.60.0
 Release:	1
 Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 crash handling library
@@ -66,7 +66,7 @@ Developer documentation for %{name} for use with Qt Assistant
 %files -n %{libname}
 %{_libdir}/*.so.%{major}
 %{_libdir}/*.so.%{version}
-%{_sysconfdir}/xdg/kcrash.categories
+%{_datadir}/qlogging-categories5/kcrash.categories
 
 %files -n %{devname}
 %{_includedir}/*
